@@ -14,6 +14,17 @@
   <link rel="stylesheet" href="css/base.css">
   <link rel="stylesheet" href="css/layout.css">
   <link rel="stylesheet" href="css/modules.css">
+  <script id="project-template" type="text/x-handlebars-template">
+    <div class="row">
+      <div class="one-half column">
+        <h5 class="pname heading-group"><a href="{{purl}}">{{pname}}</a></h5>
+        <h6 class="pdate heading-group">{{pdate}}</h6>
+        <p class="description">{{description}}</p>
+      </div>
+    </div>
+  </script>
+
+</script>
 </head>
 <body>
   <header class="site-header clearfix">
@@ -23,37 +34,32 @@
     </div>
     <nav class="main-nav">
       <div class="icon-menu fa fa-bars" aria-hidden="true"></div>
-        <ul>
-          <li class="tab"><a href="#home" class="fa fa-home" aria-hidden="true">Home</a></li>
-          <li class="tab"><a href="#about" class="fa fa-user-secret" aria-hidden="true">About</a></li>
-          <li class="tab"><a href="#portfolio" class="fa fa-folder-open" aria-hidden="true">Portfolio</a></li>
-          <li class="tab"><a href="https://github.com/gnoevil" class="fa fa-github" aria-hidden="true">GitHub</a></li>
-        </ul>
+      <ul>
+        <li class="tab"><a href="#home" class="fa fa-home" aria-hidden="true">Home</a></li>
+        <li class="tab"><a href="#about" class="fa fa-user-secret" aria-hidden="true">About</a></li>
+        <li class="tab"><a href="#portfolio" class="fa fa-folder-open" aria-hidden="true">Portfolio</a></li>
+        <li class="tab"><a href="https://github.com/gnoevil" class="fa fa-github" aria-hidden="true">GitHub</a></li>
+      </ul>
     </nav>
   </header>
   <main>
-     <section id="home" class="row">
-         <h4 class="heading-group">Welcome to the home of a warrior.</h4>
-       </section>
+    <section id="home" class="row">
+      <h4 class="heading-group">Welcome to the home of a warrior.</h4>
+    </section>
     <section id="about" class="row">
-         <h4 class="heading-group">About me</h4>
-         <div class="" >
-          <div class="profile-pic pull-left"></div>
-          <div class="profile-intro"><p>Your bones don't break, mine do. That's clear. Your cells react to bacteria and viruses differently than mine. You don't get sick, I do. That's also clear. But for some reason, you and I react the exact same way to water. We swallow it too fast, we choke. We get some in our lungs, we drown. However unreal it may seem, we are connected, you and I. We're on the same curve, just on opposite ends.</p></div>
+      <h4 class="heading-group">About me</h4>
+      <div class="" >
+        <div class="profile-pic pull-left"></div>
+        <div class="profile-intro"><p>Your bones don't break, mine do. That's clear. Your cells react to bacteria and viruses differently than mine. You don't get sick, I do. That's also clear. But for some reason, you and I react the exact same way to water. We swallow it too fast, we choke. We get some in our lungs, we drown. However unreal it may seem, we are connected, you and I. We're on the same curve, just on opposite ends.</p></div>
       </div>
     </section>
+    <h4 class="heading-group">Projects</h4>
     <section id="projects">
-      <h4 class="heading-group">Projects</h4>
-      <div class="template" class="row">
-        <div class="one-half column">
-          <h5 class="heading-group pname"><a href="#">Name of Project</a></h5>
-          <h6 class="heading-group pdate">02-2-16</h6>
-          <p class="description">This is a placeholder with the CSS, font and favicon. It's just waiting for you to add some content!</p>
-        </div>
-      </div>
+     
     </section>
   </main>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js" charset="utf-8"></script>
+  <script src=" https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.6/handlebars.min.js" charset="utf-8"></script>
   <script src="js/projects.js" charset="utf-8"></script>
   <script src="js/app.js" charset="utf-8"></script>
 </body>

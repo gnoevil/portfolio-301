@@ -1,28 +1,25 @@
-###Day 003
-##Portfolio assignment for class 3
+###Day 004
 
-Continue building and improving your portfolio site. Here's how you can leverage events:
-
-Adapt these stories as necessary to fit how you want to build your portfolio.
+###Portfolio Assignment for Class 4 - Templates and Typography
+Use what you learned in the class 4 lecture to improve the structure of your Portfolio app codebase.
 
 ##User Stories: MVP
 
-1. As the creator, I want the Home and About nav links to act as tabs, so my story is revealed FAST.
-2. This means your links to NOT navigate to a new page.
-3. Instead, your "single page app" shows only the section related to the navigation tab that is selected.
-4. You can use 'data-' attributes to associate a content section with a particular tab
-5. Then use jQuery so when the tab is clicked, you hide all the sections, then reveal the associated section only.
-6. As a reader, I want the portfolio to use a nice color scheme, so that it stands out visually.
+1. As a developer, I want to use Handlebars for my project template, so that I can include new projects more easily.
+2. As a developer, I want my CSS styles to follow SMACSS organization, so that I know where to look for creating and editing styles.
 
-##Stretch Goals:
+##User Stories: Stretch Goal
 
-1. As a reader, I want project descriptions truncated to the first paragraph so that I can easily scroll though the whole list.
-2. As a reader, I want to click the "More" button so that I can expand the entire description.
-3. As a reader, I want projects filterable by category so that I can review just the things that interest me.
+1. As a visitor, I want the site to use great typography, so that I have an enjoyable reading experience.
+2. Set up your h1, h2, h3 elements according to a type scale.
+3. Include some good fonts, that work well together.
 
 ##Technical Requirements and Grading Rubric
 
-1. Use event delegation whenever appropriate.
-2. Add click handlers to at least one nav section.
-3. Do as much work as you can with advanced selectors, rather than littering your markup with classes and ids.
-4. When classes and IDs are needed, pick semantic names. There is to be no $('#content .content') nonsense!
+1. Add Handlebars to your blogging system.
+2. Organize your CSS code according to SMACSS, with at least a file for base, layout, and modules.
+
+##Helpful Resources
+
+Handlebars: http://handlebarsjs.com
+SMACSS: https://smacss.com/
