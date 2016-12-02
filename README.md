@@ -1,18 +1,28 @@
-###Day 002
-1. As a developer, I want my site to use valid and semantic markup, so that employers will love me.
-2. As the creator, I want the page to link to my social and GitHub pages, so that visitors can follow me, and I can build my audience.
-3. As a developer, I want portfolio items displayed with a repeatable template, so that I can reuse it, and abstract out the details for individual projects.
-4. As a developer, I want my CSS organized (think SMACSS) so that I can find my stylings swiftly.
-####Extra
-1. As a visitor, I want the portfolio to show the newest material on top so that I can easily see the developers recent work.
-2. As a visitor, I want relative timestamps on such material to give me a idea of how many days ago something was created.
+###Day 003
+##Portfolio assignment for class 3
 
-####Technical Requirements and Grading Rubric
+Continue building and improving your portfolio site. Here's how you can leverage events:
 
-1. Think of some ideas for your source data, and code it up in its own file! Build out an array of three objects to start with, all having similar properties.
-2. Create a new .js file with the appropriate methods to help modify your source data to help render it to the DOM:
-3. Use good Object Oriented code: Create a constructor function for projects or source data.
-4. Leave as little in the window (global) namespace as possible: attach functions to objects, etc.
-5. Use jQuery to clone the example markup for each project, as you add additional content.
-6. Your "Project" prototype should have a .toHtml() function that adds new data to the DOM.
-7. Refactor your CSS into a base, layout, and module structure where applicable.
+Adapt these stories as necessary to fit how you want to build your portfolio.
+
+##User Stories: MVP
+
+1. As the creator, I want the Home and About nav links to act as tabs, so my story is revealed FAST.
+2. This means your links to NOT navigate to a new page.
+3. Instead, your "single page app" shows only the section related to the navigation tab that is selected.
+4. You can use 'data-' attributes to associate a content section with a particular tab
+5. Then use jQuery so when the tab is clicked, you hide all the sections, then reveal the associated section only.
+6. As a reader, I want the portfolio to use a nice color scheme, so that it stands out visually.
+
+##Stretch Goals:
+
+1. As a reader, I want project descriptions truncated to the first paragraph so that I can easily scroll though the whole list.
+2. As a reader, I want to click the "More" button so that I can expand the entire description.
+3. As a reader, I want projects filterable by category so that I can review just the things that interest me.
+
+##Technical Requirements and Grading Rubric
+
+1. Use event delegation whenever appropriate.
+2. Add click handlers to at least one nav section.
+3. Do as much work as you can with advanced selectors, rather than littering your markup with classes and ids.
+4. When classes and IDs are needed, pick semantic names. There is to be no $('#content .content') nonsense!

@@ -17,10 +17,10 @@
 </head>
 <body>
   <header class="site-header clearfix">
-    <section id="home">
+    <div id="logo">
       <h1 class="heading-group">gnoevil</h1>
       <h6 class="heading-group">The portfolio of a warrior - Geno Guerrero</h6>
-    </section>
+    </div>
     <nav class="main-nav">
       <div class="icon-menu fa fa-bars" aria-hidden="true"></div>
         <ul>
@@ -31,14 +31,17 @@
         </ul>
     </nav>
   </header>
-  <div class="container">
-    <div id="about" class="row">
-      <div class="" >
-        <h4>About me</h4>
+  <main>
+     <section id="home" class="row">
+         <h4 class="heading-group">Welcome to the home of a warrior.</h4>
+       </section>
+    <section id="about" class="row">
+         <h4 class="heading-group">About me</h4>
+         <div class="" >
           <div class="profile-pic pull-left"></div>
           <div class="profile-intro"><p>Your bones don't break, mine do. That's clear. Your cells react to bacteria and viruses differently than mine. You don't get sick, I do. That's also clear. But for some reason, you and I react the exact same way to water. We swallow it too fast, we choke. We get some in our lungs, we drown. However unreal it may seem, we are connected, you and I. We're on the same curve, just on opposite ends.</p></div>
       </div>
-    </div>
+    </section>
     <section id="projects">
       <h4 class="heading-group">Projects</h4>
       <div class="template" class="row">
@@ -49,7 +52,7 @@
         </div>
       </div>
     </section>
-  </div>
+  </main>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js" charset="utf-8"></script>
   <script src="js/projects.js" charset="utf-8"></script>
   <script src="js/app.js" charset="utf-8"></script>

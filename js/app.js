@@ -22,3 +22,13 @@ devProjects.forEach(function(projectObj) {
 projects.forEach(function(projectObj) {
   $('#projects').append(projectObj.toHtml());
 });
+
+$('section').not('#home').hide();
+
+$('nav').on('click', '.tab', function(event){
+  var $activeDiv = $(this).attr('href');
+  event.preventDefault();
+  $activeDiv.show(800);
+  // $activeDiv.hide(1600);
+  console.log('I was clicked');
+});
