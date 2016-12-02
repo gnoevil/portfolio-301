@@ -1,7 +1,7 @@
 .site-header {
   background-color: rgba(78, 142, 222 , 0.6);
 }
-.heading-group-h1 {
+.heading-group {
   padding: 0 0 .2em 1em;
   margin: auto 0;
   display: block;
@@ -40,8 +40,19 @@
   font-weight: bold;
   text-decoration: none;
 }
+.profile-pic {
+  height: 150px;
+  width: 150px;
+  background-image: url("../assets/images/geno-profile-medium.jpg");
+  background-size: cover;
+}
+.profile-intro {
+  margin-top: 10px;
+  width: 100%;
+  display: inline-block;
+}
 /* add styles for how things should look on a larger screen */
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 420px) {
   .icon-menu {
     display: none;
   }
@@ -52,5 +63,11 @@
   .main-nav li {
     display: inline-block;
     padding: 0.25em;
+  }
+  .profile-intro {
+    margin-top: 0;
+    margin-left: 10px;
+    width: 70%;
+    display: inline-block;
   }
 }
