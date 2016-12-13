@@ -1,25 +1,10 @@
-###Day 004
+##Portfolio Assignment for Class 11 - Single-Page Apps
+1. We converted the blog into a SPA by using the page.js library to capture clicks and execute a function to modify the page, rather than reloading content from a server.
 
-###Portfolio Assignment for Class 4 - Templates and Typography
-Use what you learned in the class 4 lecture to improve the structure of your Portfolio app codebase.
+2. Give your portfolio the same treatment. Update your main nav so that each clickable item is a link to a different url, that is handled by a function as indicated by page.js.
 
-##User Stories: MVP
+3. Keep your code organized in a M-V-C structure that isolates data management from presentation layer, from the controller that holds it all together.
 
-1. As a developer, I want to use Handlebars for my project template, so that I can include new projects more easily.
-2. As a developer, I want my CSS styles to follow SMACSS organization, so that I know where to look for creating and editing styles.
+##Server and package.json
 
-##User Stories: Stretch Goal
-
-1. As a visitor, I want the site to use great typography, so that I have an enjoyable reading experience.
-2. Set up your h1, h2, h3 elements according to a type scale.
-3. Include some good fonts, that work well together.
-
-##Technical Requirements and Grading Rubric
-
-1. Add Handlebars to your blogging system.
-2. Organize your CSS code according to SMACSS, with at least a file for base, layout, and modules.
-
-##Helpful Resources
-
-Handlebars: http://handlebarsjs.com
-SMACSS: https://smacss.com/
+1. If you want the full caabilities of the page.js library, you will need a basic server and package.json file in your app's directory.
